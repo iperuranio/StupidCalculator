@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248EC8C3255EC2E000D10C74 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EC8C2255EC2E000D10C74 /* StringExtensions.swift */; };
 		24AB251F255E01C0004D5FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB251E255E01C0004D5FAC /* AppDelegate.swift */; };
 		24AB2521255E01C0004D5FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB2520255E01C0004D5FAC /* SceneDelegate.swift */; };
 		24AB2523255E01C0004D5FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB2522255E01C0004D5FAC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		248EC8C2255EC2E000D10C74 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = "../../../../../../Users/claportuesi/Downloads/b03f8c989c0cb36ccde50555b596f0f0-efba877ba23fdf9f15e500bc27d714526290567e/StringExtensions.swift"; sourceTree = "<group>"; };
 		24AB251B255E01C0004D5FAC /* StupidCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AB251E255E01C0004D5FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24AB2520255E01C0004D5FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		24AB251D255E01C0004D5FAC /* StupidCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				248EC8C2255EC2E000D10C74 /* StringExtensions.swift */,
 				24AB251E255E01C0004D5FAC /* AppDelegate.swift */,
 				24AB2520255E01C0004D5FAC /* SceneDelegate.swift */,
 				24AB2522255E01C0004D5FAC /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248EC8C3255EC2E000D10C74 /* StringExtensions.swift in Sources */,
 				24AB2523255E01C0004D5FAC /* ViewController.swift in Sources */,
 				24AB251F255E01C0004D5FAC /* AppDelegate.swift in Sources */,
 				24AB2521255E01C0004D5FAC /* SceneDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD72DVYR7U;
 				INFOPLIST_FILE = StupidCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.claxon007.StupidCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD72DVYR7U;
 				INFOPLIST_FILE = StupidCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.claxon007.StupidCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
