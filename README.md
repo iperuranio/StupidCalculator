@@ -2,4 +2,5 @@
 My first calculator! Just a small and cute app
 
 
-![Screenshot #1](https://i.imgur.com/YCLciqk.png | width=100)
+![](https://i.imgur.com/YCLciqk.png | width=100)
+<img src="https://github.com/favicon.ico" height="24" width="48">
